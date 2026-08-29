@@ -3,6 +3,7 @@
 class Posse < Formula
   desc "Dispatcher binding personas, env sets and recipes to herdr and beads"
   homepage "https://github.com/ranger360ai/posse"
+  version "0.4.0"
   license "Apache-2.0"
 
   bottle do

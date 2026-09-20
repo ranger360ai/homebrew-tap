@@ -3,36 +3,36 @@
 class Posse < Formula
   desc "Dispatcher binding personas, env sets and recipes to herdr and beads"
   homepage "https://github.com/ranger360ai/posse"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/ranger360ai/posse/releases/download/v0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "d945576813f7e9bc6da7ddd696e87a8c8f15f88b14d8ad0ec07522594286cb30"
-    sha256 cellar: :any_skip_relocation, sonoma:       "57edfdfb1b83beeb7c534e298847161ae5240967e3cde9a5623e24a893ab8cbe"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "bc2c17660cd4b0288f92e5e07058fd210a9286d827ee755294183d343538cf38"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "0f63ac0b3a4a78de9263159049596b6a034b25a0d1d44b9afd130498c233681b"
+    root_url "https://github.com/ranger360ai/posse/releases/download/v0.5.0"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "418d72d3f375999d6f43174da226895178f0225ed1307c8df1e14694bfd77c9b"
+    sha256 cellar: :any_skip_relocation, big_sur:       "4724535fe7cbba04dc2360a13ab6307f9722df042a117964f844700c96b9154a"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "1f3054f4f6656e358d132bdc44a116b2a66eeffcbb3d81dd36370067cc967169"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "ded46310be4082deec41f1df8f10748efd16ed9cd4fbb5b74744d21d5357823d"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/ranger360ai/posse/releases/download/v0.4.0/posse_0.4.0_darwin_arm64.tar.gz"
-      sha256 "7f2fba56541b0cf82f79e0c1fe76581ae53581ad31e151a273045116f1f9d54e"
+      url "https://github.com/ranger360ai/posse/releases/download/v0.5.0/posse_0.5.0_darwin_arm64.tar.gz"
+      sha256 "74a1a83d614724b9ed1a44f98eebf0557d6ecf1894e69d426ef9c616d19fc095"
     end
     on_intel do
-      url "https://github.com/ranger360ai/posse/releases/download/v0.4.0/posse_0.4.0_darwin_amd64.tar.gz"
-      sha256 "c8565461ba4355dc8b9d28d7213e6337fb95956646475a00247cf4c626ec5949"
+      url "https://github.com/ranger360ai/posse/releases/download/v0.5.0/posse_0.5.0_darwin_amd64.tar.gz"
+      sha256 "6469fb665bcdd9785751c5f5a07a514f3fb2c0bc0a5879902eec7e06fa095dfb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ranger360ai/posse/releases/download/v0.4.0/posse_0.4.0_linux_arm64.tar.gz"
-      sha256 "c7256a14cc1bed111d5be794ace04fd6737008744ed7575f9f00827bc2dbd62e"
+      url "https://github.com/ranger360ai/posse/releases/download/v0.5.0/posse_0.5.0_linux_arm64.tar.gz"
+      sha256 "eec1acdd443390902a0b695385594ac4bd6f1b3e2f2cb4de273392222dce6898"
     end
     on_intel do
-      url "https://github.com/ranger360ai/posse/releases/download/v0.4.0/posse_0.4.0_linux_amd64.tar.gz"
-      sha256 "52b3b843c9e96ffed8bfb708aefb640845a051cf502fdad209ae408422f5536b"
+      url "https://github.com/ranger360ai/posse/releases/download/v0.5.0/posse_0.5.0_linux_amd64.tar.gz"
+      sha256 "797fe8da5fd79bf73fc7cc71a2267b76a55378702f38e9550f5a552000cb5ef1"
     end
   end
 
